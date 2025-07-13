@@ -14,9 +14,11 @@ Open the `prod.env` file and fill in the following fields with the required conf
 - **TEST_USERNAME**: The username for the service.
 - **TEST_PASSWORD**: The password for the service.
 - **URL**: The base URL for the service.
+- **BACKEND_URL**: API URL
 
 Example:
 ```plaintext
 TEST_USERNAME=myUsername
 TEST_PASSWORD=myPassword
 URL=https://example.com
+BACKEND_URL=https://example.com
