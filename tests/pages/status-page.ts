@@ -1,6 +1,5 @@
 import { Locator, Page } from '@playwright/test'
-import {PASSWORD, SERVICE_URL, USERNAME} from '../../config/env-data'
-import { OrderPage } from './order-page'
+import {SERVICE_URL} from '../../config/env-data'
 
 export class StatusPage {
     readonly page: Page

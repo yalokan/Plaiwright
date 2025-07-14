@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import {PASSWORD, SERVICE_URL, USERNAME} from '../../../config/env-data'
+import {SERVICE_URL} from '../../../config/env-data'
 
 test('Sign in button is disabled when an invalid username is entered', async ({ page }) => {
   await page.goto(SERVICE_URL)
