@@ -1,4 +1,4 @@
-import {expect, test} from '@playwright/test'
+import { expect, test } from '@playwright/test'
 import { LoginPage } from '../../pages/login-page'
 
 test.only('Sign in button is disabled when an invalid username is entered', async ({ page }) => {
@@ -8,5 +8,5 @@ test.only('Sign in button is disabled when an invalid username is entered', asyn
   await expect(orderPage.statusButton).toBeVisible()
 
   await orderPage.createOrder()
-    await expect(orderPage.OkButton).toBeVisible()
+  await expect(orderPage.OkButton).toBeVisible()
 })

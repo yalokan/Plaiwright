@@ -1,5 +1,5 @@
 import { Locator, Page } from '@playwright/test'
-import {PASSWORD, SERVICE_URL, USERNAME} from '../../config/env-data'
+import { PASSWORD, SERVICE_URL, USERNAME } from '../../config/env-data'
 import { OrderPage } from './order-page'
 
 export class LoginPage {
